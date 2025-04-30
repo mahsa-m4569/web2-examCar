@@ -323,15 +323,18 @@
             <div class="flex flex-col gap-4 w-full mt-6">
               <button
                 class="bg-orange-500 hover:bg-amber-200 text-white px-6 py-2 rounded-lg transition shadow-md w-full md:w-auto">
-                استعلام قیمت و مشخصات فنی خودرو &gt
+                استعلام قیمت و مشخصات فنی خودرو 
+                <i class="fas fa-angle-right mr-2"></i>
               </button>
               <button
                 class="border-2 border-orange-500 text-white hover:bg-amber-200 px-6 py-2 rounded-lg transition w-full md:w-auto">
-                مقایسه حرفه‌ای بین مدل‌های مختلف &gt
+                مقایسه حرفه‌ای بین مدل‌های مختلف 
+                <i class="fas fa-angle-right mr-2"></i>
               </button>
               <button
                 class="border-2 border-orange-500 text-white hover:bg-amber-200 px-6 py-2 rounded-lg transition w-full md:w-auto">
-                امکانات و ویژگی‌های ایمنی &gt
+                امکانات و ویژگی‌های ایمنی 
+                <i class="fas fa-angle-right mr-2"></i>
               </button>
             </div>
           </div>
@@ -413,8 +416,67 @@
 
           <!-- عکس سمت راست ماشين طوسي -->
           <div class="md:w-1/2">
-            <img src="/assets/images/500.png" alt="TANK 300" class="w-full h-auto rounded-xl shadow-xl object-cover">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <!-- آیتم گالری با تصویر -->
+              <!-- <a href="#picBox" class="relative block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+               
+           
+                  <img src="/assets/images/500.png" alt="TANK 300" class="w-96 h-full shadow-xl object-cover">
+                  
+              
+             
+              </a> -->
+              <a href="#picBox" class="relative block overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <img src="/assets/images/500.png" alt="TANK 300" class="w-full max-h-64 object-contain">
+            </a>
+              <!-- آیتم‌های بیشتر گالری می‌توانند اینجا اضافه شوند -->
           </div>
+          
+          <!-- پنجره نمایش تصویر -->
+          <div id="picBox" class="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center p-4 opacity-0 invisible transition-all duration-300 target:opacity-100 target:visible">
+              <div class="relative bg-white rounded-2xl w-full max-w-6xl max-h-[90vh] overflow-auto p-6">
+                  <!-- دکمه بستن -->
+                  <a href="#" class="absolute top-4 left-4 bg-yellow-100 rounded-full p-2 text-xl border-4 border-red-800 hover:bg-yellow-200 transition duration-200">
+                      ❌
+                  </a>
+                  
+                  <!-- تصویر بزرگ وسط -->
+                  <div class="flex justify-center mb-8">
+                      <img src="/image/main-large-image.jpg" alt="تصویر اصلی" class="max-w-full h-auto max-h-[60vh] object-contain rounded-lg shadow-xl">
+                  </div>
+                  
+                  <!-- سه تصویر کوچک زیرین -->
+                  <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
+                      <!-- تصویر کوچک 1 -->
+                      <div class="flex flex-col items-center">
+                          <img src="/image/small-image1.jpg" alt="تصویر 1" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition duration-300 cursor-pointer">
+                          <div class="mt-2 text-center">
+                              <p class="text-gray-600">توضیحات تصویر 1</p>
+                          </div>
+                      </div>
+                      
+                      <!-- تصویر کوچک 2 -->
+                      <div class="flex flex-col items-center">
+                          <img src="/image/small-image2.jpg" alt="تصویر 2" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition duration-300 cursor-pointer">
+                          <div class="mt-2 text-center">
+                              <p class="text-gray-600">توضیحات تصویر 2</p>
+                          </div>
+                      </div>
+                      
+                      <!-- تصویر کوچک 3 -->
+                      <div class="flex flex-col items-center">
+                          <img src="/image/small-image3.jpg" alt="تصویر 3" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition duration-300 cursor-pointer">
+                          <div class="mt-2 text-center">
+                              <p class="text-gray-600">توضیحات تصویر 3</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            
+          
+          </div>
+          
 
           <!-- متن سمت چپ -->
           <div class="md:w-1/2 flex flex-col justify-center text-left">
@@ -506,8 +568,10 @@
 
         <!-- گالری عکس‌ها -->
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+
           <img src="/assets/images/image 1 (1).png" alt="عکس 1"
             class="w-full h-auto rounded-lg shadow hover:scale-105 transition">
+            
           <img src="/assets/images/image 2.png " alt="عکس 2"
             class="w-full h-auto rounded-lg shadow hover:scale-105 transition">
           <img src="/assets/images/image3.png" alt="عکس3"
@@ -1021,6 +1085,7 @@
         </div>
       </div>
     </footer>
+   
 </body>
 
 </html>
