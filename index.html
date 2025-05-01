@@ -11,162 +11,136 @@
 </head>
 
 <body class="bg-black">
+  
   <section>
-    <header class="bg-black text-white p-4">
-
-      <div class="flex justify-between items-start">
-        <!-- بخش اصلی -->
-        <div class="flex-1">
-
-          <!-- عنوان اصلی -->
-          <i class="fas fa-location-dot text-white ms-20 ">
-            اراک، خیابان شریعتی، حدفاصل پمپ بنزین و شورای حل اختلاف
-          </i>
-          <div class="flex justify-end gap-x-3 md:gap-x-6">
-            <div class="flex items-center">
-              <i class="fas fa-clock-rotate-left ml-2 text-sm md:text-base text-orange-500"></i>
-              <span class="text-xs md:text-sm">تست</span>
-            </div>
-            <div class="flex items-center">
-
-              <i class="fas fa-gear text-orange-600">
-              </i>
-              <p>برای ارائه خدمات همين حالا ثبت نام کنید</p>
-
-            </div>
-          </div>
-
+    <header class="text-white p-4">
+      <!-- بخش اصلی -->
+      <div class="flex-1">
+        <!-- عنوان اصلی - فقط در موبایل تغییر می‌کند -->
+        <i class="fas fa-location-dot text-white ms-20 sm:ms-20 md:ms-20 lg:ms-20 xl:ms-20">
+          اراک، خیابان شریعتی، حدفاصل پمپ بنزین و شورای حل اختلاف
+        </i>
+        
+        <div class="flex justify-end gap-x-3 sm:justify-end sm:gap-x-3 md:justify-end md:gap-x-6 lg:justify-end lg:gap-x-6">
           <div class="flex items-center">
-            <!-- لوگو -->
-            <div>
-              <img src="/assets/images/logo.png" alt="لوگو" class="h-20 mb-[50rem] object-contain">
-            </div>
-            <div class="flex-1 border-t-2 border-white ml-4 mb-10">
-              <div class="flex flex-col md:flex-row items-start md:items-center mt-5 md:mb-0">
-                <p class="text-white font-bold text-2xl mt-5 ms-7">
-                  مدیران خودرو مرکزی
-                </p>
-                <div class="h-10 mt-16 w-px bg-white mx-0 md:mx-4 my-3 md:my-0"></div>
-                <span class="mt-4">نمایندگی رسمی</span>
-              </div>
-
-              <div class="flex justify-end gap-4 ms-10 ">
-                <div class="text-xs md:text-sm ">
-
-                  <p class=" font-bold">086-32247106</p>
-                  <div class="container mx-auto py-8 text-center scroll-behavior: smooth">
-                    <a href="#showImage"
-                      class="inline-block text-purple-600  hover:text-purple-800 cursor-pointer text-xl font-medium">
-                      <p class=" mb-50   text-white"> 🟢تماس باما </p>
-                    </a>
-
-
-                    <div class="h-96"></div>
-
-                  </div>
-
-                  <!-- تارگت -->
-                  <div id="showImage"
-                    class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50 opacity-0 invisible transition-all duration-300 target:opacity-100 target:visible">
-                    <div class="relative bg-black rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-auto">
-
-
-
-                      <!-- توضیحات -->
-                      <div class="flex flex-col items-center p-4 bg-black">
-                        <!-- بخش بالایی با لوگو، متن و دو آیکون در سمت راست -->
-                        <div class="flex items-center mb-8 w-full justify-between">
-                          <!-- لوگو و متن کنار آن -->
-                          <div class="flex items-center ms-15">
-                            <img src="/assets/images/logo.png" alt="لوگو" class="h-16 mr-3">
-                            <h4 class="text-2xl font-bold text-white">مخزن AVTORUS لوسینی اوستروف <br> فروشنده رسمی</h4>
-
-                          </div>
-
-                          <!-- دو آیکون در سمت راست -->
-                          <div class="flex gap-3 items-center">
-                            <!-- دکمه بستن -->
-                            <a href="#"
-                              class="absolute top-2 right-10  text-white rounded-full p-2 hover:bg-red-600 transition duration-200">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                  d="M6 18L18 6M6 6l12 12" />
-                              </svg>
-                            </a>
-                            <i class="fas fa-phone-volume mb-9 mr-20 text-2xl text-white"></i>
-
-
-                          </div>
-                        </div>
-
-                        <!--  متن تارگت -->
-                        <div class="flex flex-col items-center gap-3 mb-8 w-full max-w-md">
-                          <div class=" p-3 text-left text-white rounded-lg shadow-sm w-full">
-                            <h4 class="text-2xl font-bold text-white">مخزن AVTORUS لوسینی اوستروف <br> فروشنده رسمی</h4>
-                          </div>
-                          <div class=" p-3 text-left text-white rounded-lg shadow-sm w-full">
-                            <p class="text-3xl font-bold">+7 (999) 999-99-99</p>
-                            <span class=" p-3 text-left text-white rounded-lg shadow-sm w-full">ما در ارتباط هستیم
-                              🟢</span>
-                          </div>
-                          <div class=" p-3 text-left text-white rounded-lg shadow-sm w-full">
-
-
-                            <div class="flex items-center">
-                              <i class="fas fa-clock-rotate-left ml-2 text-sm md:text-base text-white"></i>
-                              <span class="text-xs md:text-sm">تست</span>
-                            </div>
-
-                            <i class="fas fa-map-marker-alt mt-7">
-                            </i>
-                            <p class="text-gray-300 text-sm ms-5"> تهران، بزرگراه شهید همت غرب بین بزرگراه اشرفی
-                              اصفهانی و بلوار عدل</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- دكمه تارگت -->
-                      <div class="flex gap-4 mb-8">
-                        <button
-                          class="bg-[#FF9549] hover:bg-neutral-300 text-white px-46 py-3 flex items-center rounded-lg text-sm mr-20 ms-30 ">
-                          درخواست تماس
-                        </button>
-
-                      </div>
-
-                      <!-- دو متن در پایین -->
-                      <div class="flex flex-col items-center text-sm text-white">
-
-                        <p>ثبت نام برای دریافت خدمات
-                          <i class="fas fa-gear text-amber-50 text-right"></i>
-                        </p>
-                        <p>رانندگی آزمایشی
-                          <i class="fas fa-clock-rotate-left ml-2 text-sm md:text-base text-white"></i>
-                        </p>
-
-                      </div>
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-            </div>
-
+            <i class="fas fa-clock-rotate-left ml-2 text-sm sm:text-sm md:text-base text-orange-500"></i>
+            <span class="text-xs sm:text-xs md:text-sm">تست</span>
+          </div>
+          <div class="flex items-center">
+            <i class="fas fa-gear text-orange-600"></i>
+            <p class="hidden sm:hidden md:block">برای ارائه خدمات همين حالا ثبت نام کنید</p>
+            <p class="block sm:block md:hidden text-xs">ثبت نام خدمات</p>
           </div>
         </div>
-
-        <button
-          class="bg-[#FF9549] hover:bg-neutral-300 text-white h-15 py-4 flex items-center rounded-lg text-sm mr-20 ms-30 mb-[5rem] mt-40">
-          <i class="fas fa-phone ml-2"></i>
-          درخواست تماس
-        </button>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
+    
+        <div class="flex items-center sm:items-center">
+          <!-- لوگو -->
+          <div>
+            <img src="/assets/images/logo.png" alt="لوگو" class="h-20 mb-[50rem] sm:mb-[52rem] object-contain">
+          </div>
+          
+          <div class="flex-1 border-t-2 border-white ml-4 mb-10 sm:ml-4 sm:mb-10">
+            <div class="flex flex-col md:flex-row items-start md:items-center mt-5 md:mb-0">
+              <p class="text-white font-bold text-2xl mt-5 ms-7 sm:mt-5 sm:ms-7">
+                مدیران خودرو مرکزی
+              </p>
+              <div class="h-10 mt-16 w-px bg-white mx-0 md:mx-4 my-3 md:my-0"></div>
+              <span class="mt-4 sm:mt-4">نمایندگی رسمی</span>
+            </div>
+    
+            <div class="flex justify-end gap-4 ms-10 sm:justify-end sm:ms-10">
+              <div class="text-xs sm:text-xs md:text-sm">
+                <p class="font-bold ">086-32247106</p>
+                <div class="container mx-auto py-8 text-center scroll-behavior: smooth">
+                  <a href="#showImage"
+                    class="inline-block text-purple-600 hover:text-purple-800 cursor-pointer text-xl font-medium">
+                    <p class="mb-60 text-white"> 🟢تماس باما </p>
+                  </a>
+    
+                  <div class="h-96"></div>
+                </div>
+    
+                <!-- تارگت  -->
+                <div id="showImage"
+                  class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50 opacity-0 invisible transition-all duration-300 target:opacity-100 target:visible">
+                  <div class="relative bg-black rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-auto sm:max-w-2xl">
+    
+                    <!-- توضیحات -->
+                    <div class="flex flex-col items-center p-4 bg-black">
+                      <!-- بخش بالایی -->
+                      <div class="flex items-center mb-8 w-full justify-between sm:justify-between">
+                        <!-- لوگو و متن -->
+                        <div class="flex items-center ms-15 sm:ms-15">
+                          <img src="/assets/images/logo.png" alt="لوگو" class="h-16 mr-3 sm:mr-3">
+                          <h4 class="text-2xl font-bold text-white sm:text-2xl">مخزن AVTORUS لوسینی اوستروف <br> فروشنده رسمی</h4>
+                        </div>
+    
+                        <!-- آیکون‌ها -->
+                        <div class="flex gap-3 items-center">
+                          <a href="#"
+                            class="absolute top-2 right-10 text-white rounded-full p-2 hover:bg-red-600 transition duration-200 sm:right-10">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                              stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                          </a>
+                          <i class="fas fa-phone-volume mb-9 mr-20 text-2xl text-white sm:mr-20"></i>
+                        </div>
+                      </div>
+    
+                      <!-- متن تارگت -->
+                      <div class="flex flex-col items-center gap-3 mb-8 w-full max-w-md sm:max-w-md">
+                        <div class="p-3 text-left text-white rounded-lg shadow-sm w-full sm:text-left">
+                          <h4 class="text-2xl font-bold text-white sm:text-2xl">مخزن AVTORUS لوسینی اوستروف <br> فروشنده رسمی</h4>
+                        </div>
+                        <div class="p-3 text-left text-white rounded-lg shadow-sm w-full sm:text-left">
+                          <p class="text-3xl font-bold sm:text-3xl">+7 (999) 999-99-99</p>
+                          <span class="p-3 text-left text-white rounded-lg shadow-sm w-full sm:text-left">ما در ارتباط هستیم
+                            🟢</span>
+                        </div>
+                        <div class="p-3 text-left text-white rounded-lg shadow-sm w-full sm:text-left">
+                          <div class="flex items-center sm:items-center">
+                            <i class="fas fa-clock-rotate-left ml-2 text-sm md:text-base text-white sm:text-sm"></i>
+                            <span class="text-xs md:text-sm sm:text-xs">تست</span>
+                          </div>
+    
+                          <i class="fas fa-map-marker-alt mt-7 sm:mt-7">
+                          </i>
+                          <p class="text-gray-300 text-sm ms-5 sm:ms-5"> تهران، بزرگراه شهید همت غرب بین بزرگراه اشرفی
+                            اصفهانی و بلوار عدل</p>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <!-- دکمه تارگت -->
+                    <div class="flex gap-4 mb-8 sm:gap-4">
+                      <button
+                        class="bg-[#FF9549] hover:bg-neutral-300 text-white px-46 py-3 flex items-center rounded-lg text-sm mr-20 ms-30 sm:mr-20 sm:ms-30">
+                        درخواست تماس
+                      </button>
+                    </div>
+    
+                    <!-- متن پایین -->
+                    <div class="flex flex-col items-center text-sm text-white sm:text-sm">
+                      <p>ثبت نام برای دریافت خدمات
+                        <i class="fas fa-gear text-amber-50 text-right sm:text-right"></i>
+                      </p>
+                      <p>رانندگی آزمایشی
+                        <i class="fas fa-clock-rotate-left ml-2 text-sm md:text-base text-white sm:text-sm"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <button class="bg-[#FF9549] hover:bg-orange-600 text-white py-2 px-4 md:py-4 md:px-6 flex items-center rounded-lg text-sm md:text-base mt-4 md:mb-20 md:mr-20 md:ms-20 self-center md:self-start transition duration-300 sm:py-2 sm:px-4">
+                <i class="fas fa-phone ml-2 sm:ml-2"></i>
+                درخواست تماس
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -349,7 +323,7 @@
           <!-- کادر 1 -->
           <div class="bg-black text-white h-30 rounded-xl shadow-lg">
             <div class="flex items-center">
-              <i class="fas fa-clipboard-check text-[#FF9549] ms-10 text-2xl mt-7"></i>
+              <i class="fas fa-clipboard-check text-[#FF9549] ms-10 text-2xl mb-5"></i>
               <span class="ml-5 text-white font-bold mt-3"> تمامی قطعات و لوازم با گارانتی اصالت کالا
                 <p class=" text-white font-bold">گواهی‌های اصالت و تضمین کیفیت</p>
               </span>
@@ -361,7 +335,7 @@
 
           <div class="bg-black text-white h-30 rounded-xl shadow-lg">
             <div class="flex items-center">
-              <i class="fas fa-clipboard-check text-[#FF9549] ms-10 text-2xl mt-7"></i>
+              <i class="fas fa-shield-alt text-[#FF9549] ms-10 text-2xl mt-7"></i>
               <span class="ml-5 text-white font-bold mt-3"> پشتیبانی خدمات
                 تا 5 سال / 150000 کیلومتر
 
@@ -374,7 +348,7 @@
 
           <div class="bg-black text-white h-30 rounded-xl shadow-lg">
             <div class="flex items-center">
-              <i class="fas fa-clipboard-check text-[#FF9549] ms-10 text-2xl mt-7"></i>
+              <i class="fas fa-sync-alt text-[#FF9549] ms-10 text-2xl mb-5"></i>
               <span class="ml-5 text-white font-bold mt-3"> ما همه چیز را متحول می‌کنیم!
                 <p class=" text-white font-bold"> تضمین رضایت 100% مشتریان</p>
               </span>
@@ -385,7 +359,7 @@
 
           <div class="bg-black text-white h-30 rounded-xl shadow-lg">
             <div class="flex items-center">
-              <i class="fas fa-clipboard-check text-[#FF9549] ms-10 text-2xl mt-7"></i>
+              <i class="fas fa-percent text-[#FF9549] ms-10 text-2xl mt-7"></i>
               <span class="ml-5 text-white font-bold mt-3"> اعتبار ویژه 5% برای شما!
 
               </span>
